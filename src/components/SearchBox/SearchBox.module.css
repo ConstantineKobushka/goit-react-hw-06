@@ -1,7 +1,9 @@
-.searchBox {
+.wrapper {
   max-width: 270px;
-  margin-left: 25px;
-  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  margin-bottom: 40px;
 }
 .label {
   margin-bottom: 5px;

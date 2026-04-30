@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 270px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+.box {
+  display: flex;
+  gap: 10px;
+}
+.box + .box {
+  margin-top: 10px;
+}
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  transition: border-color 0.25s ease-in;
+}
+
+@media only screen and (min-width: 1440px) {
+  .btn:hover,
+  .btn:focus-visible {
+    border: 1px solid #000000;
+  }
+}
